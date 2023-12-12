@@ -22,6 +22,13 @@ public class Account {
 	private String owner;
 	private int balance;
 	
+	public Account (String accountNo, String owner, int balance) {
+		this.accountNo = accountNo;
+		this.owner = owner;
+		this.balance = balance;
+	}
+	
+	
 	
 	public String getAccountNo() {
 		return accountNo;
